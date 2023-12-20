@@ -104,7 +104,7 @@ checkOutButton.addEventListener('click', async (e) => {
 
     //minta transaction token menggunakan ajax / fetch
     try {
-        const response = await fetch('php/placeOrder.php', {
+        const response = await fetch('api/placeOrder.php', {
             method: 'POST',
             body: data,
         });
